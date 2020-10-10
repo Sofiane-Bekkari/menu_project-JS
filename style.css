@@ -1,0 +1,175 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    margin:0 auto;
+    padding: 0;
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Poppins', sans-serif;
+    color: #102a41;
+    background-color: #e3bcf856;
+    overflow-x: hidden;
+}
+
+/* the main section */
+section.menu {
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    padding: 0;
+    border: solid #663399 .5px;
+    border-radius: 5px;
+    box-shadow: .5px 1px 3px #b4b4b47a;
+    width: 500px;
+}
+
+/* main title */
+.title {
+    font-size: 25px;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+.underline {
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    right: 200px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    height: 5px;
+    background-color: #663399;
+}
+
+/* buttons */
+.btn-container {
+    text-align: center;
+    margin: 3rem;
+}
+.btn {
+    border: solid #663399 2px;
+    border-radius: 5px;
+    padding: .3rem 1rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    color: #663399;
+    transition: all 1s;
+}
+.btn:hover {
+    background-color: #663399e0;
+    color: white;
+}
+
+/* menu-item */
+.menu-item {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+/* photos */
+.photo {
+    width: 98%;
+    height: 30vh;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: solid 4px #663399;
+    border-radius: 5px;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border-bottom: solid 1px #173855;
+}
+h4 {
+    padding: 0;
+    font-size: 18px;
+    margin: 1rem 0 .5rem 0;
+}
+.price {
+    color: #663399;
+}
+
+/* item-info */
+.item-info {
+    margin: 0;
+    padding-top: 0;
+}
+.item-text {
+    color: #173855;
+}
+
+/* media query at 800px */
+@media screen and (min-width: 800px){
+
+    .underline {
+        top: 50px;
+        right: 300px;
+        width: 100px;
+        height: 5px;
+    }
+    section.menu {
+        width: 700px;
+    }
+
+    /* displaying flex */
+    .menu-item {
+        display: flex;
+        justify-content: space-around;
+    }
+    .photo {
+        width: 35%;
+        height: 25vh;
+    }
+    h4 {
+        padding-bottom: .5rem;
+        margin: 0;
+    }
+    .item-info {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+/* media query at 1200px */
+@media screen and (min-width: 1200px){
+    .underline {
+        top: 50px;
+        right: 550px;
+        width: 100px;
+        height: 5px;
+    }
+    .section-center {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        width: 100%;
+    }
+    section.menu {
+        width: 1200px;
+        justify-content: space-between;
+    }
+    .photo {
+        width:210px;
+        height: 22vh;
+    }
+    .item-info {
+        padding: 0 1.5rem 0 .5rem ;
+    }
+    .menu-item {
+       width: 100%;
+       padding-left: .5rem;
+    }
+}
