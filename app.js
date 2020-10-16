@@ -86,7 +86,7 @@ const menu = [
       category: "matlo3",
       price: 1.99,
       img: "./images/item-11.jpeg",
-      desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+      desc: `Is an Algerian traditional food and is quite popular in the street as fast food and is so cheap and delicious, `,
     }
   ];
 
