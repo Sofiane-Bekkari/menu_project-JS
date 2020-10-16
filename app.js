@@ -73,13 +73,21 @@ const menu = [
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
-        id: 10,
-        title: "steak dinner",
-        category: "dinner",
-        price: 30.99,
-        img: "./images/item-10.jpeg",
-        desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
-      }
+      id: 10,
+      title: "steak dinner",
+      category: "dinner",
+      price: 30.99,
+      img: "./images/item-10.jpeg",
+      desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+    },
+    {
+      id: 10,
+      title: "matlo3 kabab",
+      category: "matlo3",
+      price: 1.99,
+      img: "./images/item-11.jpeg",
+      desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+    }
   ];
 
 // get element section-center
